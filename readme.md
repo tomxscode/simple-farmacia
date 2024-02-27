@@ -1,0 +1,1 @@
+enlace a paleta de colores: https://colorhunt.co/palette/12372a436850adbc9ffbfada
