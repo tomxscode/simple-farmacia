@@ -12,9 +12,13 @@
     <div class="sidebar">
         <ul class="nav-sidebar">
             <li class="nav-item">
-                <a href="#" class="nav-item-link">Panel</a>
+                <a href="{{ url_for('admin.admin_index') }}" class="nav-item-link">Inicio</a>
             </li>
+            {% block navegacion_lateral %}{% endblock %}
         </ul>
     </div>
-    <div class="container"></div>
+    <div class="container">
+        {% block contenido %}
+        {% endblock %}
+    </div>
 </body>
